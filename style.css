@@ -1,0 +1,65 @@
+
+*{
+    margin-top: 0;
+    padding: 0;
+    /* box-sizing: border-box/; */
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 50px;
+    background-color: black;
+    line-height: 50px;
+
+}
+
+
+ul{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+
+}
+
+ li{
+    display: inline;
+    position: relative;
+}
+
+a{
+    text-decoration:none ;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.effect{
+    height: 5px;
+    width: 0px;
+    background-color: aqua;
+    position: absolute;
+    top: 90%;
+    left: 0;
+    transition: 1s;
+}
+
+li:hover .effect{
+    width: 100%;
+}
+
+.effect2{
+    height: 5px;
+    width: 100%;
+    background-color: aqua;
+    position: absolute;
+    top: 90%;
+    left: 0;
+}
